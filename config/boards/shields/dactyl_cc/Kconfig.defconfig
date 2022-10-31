@@ -22,19 +22,6 @@ if SHIELD_DACTYL_CC_LEFT || SHIELD_DACTYL_CC_RIGHT
 
 endif
 
-if ZMK_DISPLAY
-
-config I2C
-	default y
-
-config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
-	default y
-
-endif # ZMK_DISPLAY
-
 if LVGL
 
 config LVGL_HOR_RES_MAX
